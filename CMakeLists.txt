@@ -25,7 +25,7 @@ source_group("Assets" FILES ${ASSETS})
 
 include(FetchContent)
 FetchContent_Declare(starlet_math
-  GIT_REPOSITORY https://github.com/masonlet/starlet-math.git 
+  GIT_REPOSITORY https://github.com/starlet-libs/math.git
   GIT_TAG main
 )
 FetchContent_MakeAvailable(starlet_math)
